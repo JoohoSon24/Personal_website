@@ -88,10 +88,6 @@ export default function Home() {
             <div className="pub-year">Ongoing</div>
             <div><h3>City-Scale Mesh Reconstruction</h3><p>KAIST CVLab collaborative research · <strong>Contributor</strong></p><p className="muted">Contributing prior-art and baseline analysis, problem formulation, pipeline design, and weekly research materials for large-scale urban 3D reconstruction.</p><span className="tag ongoing">Work in progress</span></div>
           </article>
-          <article className="publication">
-            <div className="pub-year">Ongoing</div>
-            <div><h3>Asynchronous Novel View Synthesis</h3><p>KAIST CVLab collaborative research · <strong>Contributor</strong></p><p className="muted">Reviewing asynchronous NVS literature and organizing research directions connecting asynchronous camera observations with dynamic-scene and 4D reconstruction.</p><span className="tag ongoing">Research exploration</span></div>
-          </article>
           <p className="section-note">Additional project pages, paper links, and code will be added as they become publicly available.</p>
         </section>
 
