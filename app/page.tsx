@@ -79,14 +79,18 @@ export default function Home() {
         </section>
 
         <section id="publications">
-          <h2>Publications & Ongoing Research</h2>
+          <h2>CVLab Publications & Ongoing Research</h2>
           <article className="publication">
             <div className="pub-year">2026</div>
-            <div><h3>4D Novel View Synthesis</h3><p><strong>Jooho Son</strong> and collaborators · Manuscript submitted to ICLR</p><p className="muted">Dynamic-scene reconstruction with controlled temporal and camera-condition evaluation.</p><span className="tag">Under review</span></div>
+            <div><h3>4D Novel View Synthesis</h3><p>KAIST CVLab collaborative research · <strong>Contributor (non-first author)</strong></p><p className="muted">Contributed literature review, experimental-condition design, quantitative evaluation tables, baseline comparisons, and paper figures for dynamic-scene reconstruction research.</p><span className="tag">Manuscript under review</span></div>
           </article>
           <article className="publication">
             <div className="pub-year">Ongoing</div>
-            <div><h3>City-Scale Mesh Reconstruction</h3><p><strong>Jooho Son</strong> · KAIST CVLab</p><p className="muted">Large-scale 3D reconstruction from aerial imagery and geospatial data, including prior-art analysis and pipeline design for Seoul-scale scenes.</p><span className="tag ongoing">Work in progress</span></div>
+            <div><h3>City-Scale Mesh Reconstruction</h3><p>KAIST CVLab collaborative research · <strong>Contributor</strong></p><p className="muted">Contributing prior-art and baseline analysis, problem formulation, pipeline design, and weekly research materials for large-scale urban 3D reconstruction.</p><span className="tag ongoing">Work in progress</span></div>
+          </article>
+          <article className="publication">
+            <div className="pub-year">Ongoing</div>
+            <div><h3>Asynchronous Novel View Synthesis</h3><p>KAIST CVLab collaborative research · <strong>Contributor</strong></p><p className="muted">Reviewing asynchronous NVS literature and organizing research directions connecting asynchronous camera observations with dynamic-scene and 4D reconstruction.</p><span className="tag ongoing">Research exploration</span></div>
           </article>
           <p className="section-note">Additional project pages, paper links, and code will be added as they become publicly available.</p>
         </section>
@@ -124,8 +128,10 @@ export default function Home() {
                 <h3>AI Education in Timor-Leste</h3>
                 <p>Designed and delivered an English-language AI development curriculum with KAIST volunteers and students at the National University of Timor-Leste.</p>
               </div>
-              <div className="activity-gallery">
+              <div className="activity-gallery activity-gallery-three timor-gallery">
                 <a href="/activity/timor-leste-volunteering.jpg" target="_blank"><img src="/activity/timor-leste-volunteering.jpg" alt="KAIST volunteers and students during the AI education program in Timor-Leste" /></a>
+                <a href="/activity/timor-leste-cultural-activity.jpg" target="_blank"><img src="/activity/timor-leste-cultural-activity.jpg" alt="Cultural exchange activity with students in Timor-Leste" /></a>
+                <a href="/activity/timor-leste-exchange.jpg" target="_blank"><img src="/activity/timor-leste-exchange.jpg" alt="Jooho Son participating in a student exchange activity in Timor-Leste" /></a>
               </div>
             </article>
 
