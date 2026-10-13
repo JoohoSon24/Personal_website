@@ -163,7 +163,7 @@ export default function Home() {
         <section id="skills">
           <h2>Skills</h2>
           <div className="two-column">
-            <div><h3>Certifications & Language</h3><p><strong>Craftsman Information Processing</strong><br />Korean National Technical Qualification</p><p><strong>TOEIC 835</strong><br />English proficiency</p></div>
+            <div><h3>Certifications & Language</h3><p><strong>Craftsman Information Processing</strong><br />Korean National Technical Qualification</p><p><strong>APEX AI Certification</strong></p><p><strong>TOEIC 835</strong><br />English proficiency</p></div>
             <div><h3>Technical Skills</h3><p><strong>Research:</strong> 3D Vision, Neural Rendering, RL, Multi-Agent Systems</p><p><strong>Languages:</strong> Python, C, Java, Scala, TypeScript</p><p><strong>Systems:</strong> PyTorch, Node.js, SQL, MongoDB, Git</p></div>
           </div>
         </section>
