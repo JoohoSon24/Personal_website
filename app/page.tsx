@@ -15,7 +15,7 @@ function BrandIcon({ name }: { name: keyof typeof brandPaths }) {
 
 const navigation = [
   ['About', 'about'], ['Research', 'research'], ['Publications', 'publications'],
-  ['Projects', 'projects'], ['Activity', 'activity'], ['Vitæ', 'vitae'], ['Awards & Skills', 'awards'],
+  ['Projects', 'projects'], ['Activity', 'activity'], ['Vitæ', 'vitae'], ['Skills', 'skills'],
 ];
 
 export default function Home() {
@@ -164,10 +164,10 @@ export default function Home() {
           </div>
         </section>
 
-        <section id="awards">
-          <h2>Awards & Skills</h2>
+        <section id="skills">
+          <h2>Skills</h2>
           <div className="two-column">
-            <div><h3>Honors</h3><p><strong>3rd Prize</strong><br />Hanwha Life Future Talent Contest, AI Sector · 2026</p></div>
+            <div><h3>Certifications & Language</h3><p><strong>Craftsman Information Processing</strong><br />Korean National Technical Qualification</p><p><strong>TOEIC 835</strong><br />English proficiency</p></div>
             <div><h3>Technical Skills</h3><p><strong>Research:</strong> 3D Vision, Neural Rendering, RL, Multi-Agent Systems</p><p><strong>Languages:</strong> Python, C, Java, Scala, TypeScript</p><p><strong>Systems:</strong> PyTorch, Node.js, SQL, MongoDB, Git</p></div>
           </div>
         </section>
