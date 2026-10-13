@@ -83,11 +83,19 @@ h3 { margin: 0 0 7px; color: #263a50; font-size: 16px; line-height: 1.4; }
 .activity-gallery a:hover img { transform: scale(1.012); filter: brightness(.96); }
 
 .timeline { position: relative; margin-left: 104px; border-left: 1px solid #cdd6df; }
-.timeline article { position: relative; display: grid; grid-template-columns: 150px 1fr; gap: 20px; padding: 0 0 28px 24px; }
+.timeline article { position: relative; padding: 0 0 22px 24px; }
 .timeline article:last-child { padding-bottom: 0; }
-.timeline article::before { content: ''; position: absolute; left: -4px; top: 7px; width: 7px; height: 7px; border-radius: 50%; background: var(--blue); }
+.timeline article::before { content: ''; position: absolute; left: -4px; top: 10px; width: 7px; height: 7px; border-radius: 50%; background: var(--blue); }
 .timeline time { position: absolute; right: calc(100% + 24px); width: 102px; color: var(--muted); font: 10px/1.6 var(--font-geist-mono); text-align: right; }
-.timeline p { margin: 0; color: var(--muted); font-size: 13px; }
+.timeline details { width: 100%; }
+.timeline summary { display: flex; align-items: center; justify-content: space-between; gap: 18px; width: 100%; padding: 3px 0 9px; color: #263a50; cursor: pointer; list-style: none; }
+.timeline summary::-webkit-details-marker { display: none; }
+.timeline summary strong { display: block; font-size: 16px; line-height: 1.45; }
+.timeline summary:hover { color: var(--blue); }
+.timeline p { max-width: 720px; margin: 2px 38px 0 0; color: var(--muted); font-size: 13px; line-height: 1.65; }
+.expand-mark { flex: 0 0 26px; width: 26px; height: 26px; display: grid; place-items: center; border: 1px solid #c7d2de; border-radius: 50%; color: var(--blue); font: 16px/1 var(--font-geist-mono); transition: transform .2s ease, color .2s ease, background .2s ease; }
+.timeline details[open] .expand-mark { color: white; background: var(--blue); border-color: var(--blue); transform: rotate(45deg); }
+.timeline details[open] summary { color: var(--blue); }
 .timeline .current-role { padding: 18px 20px 24px; margin: -18px 0 28px 24px; border: 1px solid #cbdced; border-radius: 7px; background: #f4f8fd; }
 .timeline .current-role::before { left: -29px; top: 25px; width: 9px; height: 9px; }
 .timeline .current-role time { top: 19px; right: calc(100% + 49px); color: var(--blue); font-weight: 700; }
