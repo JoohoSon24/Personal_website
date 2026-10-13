@@ -15,7 +15,7 @@ function BrandIcon({ name }: { name: keyof typeof brandPaths }) {
 
 const navigation = [
   ['About', 'about'], ['Research', 'research'], ['Publications', 'publications'],
-  ['Projects', 'projects'], ['Vitæ', 'vitae'], ['Awards & Skills', 'awards'],
+  ['Projects', 'projects'], ['Activity', 'activity'], ['Vitæ', 'vitae'], ['Awards & Skills', 'awards'],
 ];
 
 export default function Home() {
@@ -98,6 +98,48 @@ export default function Home() {
             <article><div><span>Field Study · 2026</span><h3>Starlink × Sky View</h3><p>Measured the relationship between sky obstruction and satellite-internet performance by synchronizing terminal, GPS, network, and sky-mask data.</p></div><ul><li>Networking</li><li>Measurement</li><li>Data Analysis</li></ul></article>
             <article><div><span>Reinforcement Learning · 2026</span><h3>Top-Gun RL</h3><p>Developed a combat-simulation training workflow using PPO, SAC, curriculum learning, self-play, checkpoint recovery, and sequence replay.</p></div><ul><li>Self-play</li><li>PPO / SAC</li><li>Simulation</li></ul></article>
             <article><div><span>Multi-Agent Systems · 2026</span><h3>Plan Bee</h3><p>Built a proxy-agent negotiation system that replans work when schedule changes create bottlenecks in software teams.</p></div><ul><li>LangGraph</li><li>FastAPI</li><li>React</li></ul></article>
+          </div>
+        </section>
+
+        <section id="activity">
+          <h2>Activity</h2>
+          <p className="section-intro">Selected moments from consulting, education, and applied AI work beyond the lab.</p>
+          <div className="activity-list">
+            <article className="activity-card">
+              <div className="activity-copy">
+                <span>Strategy & Consulting · 2024–2025</span>
+                <h3>KAIST Management Study Group (MSK)</h3>
+                <p>Led and contributed to strategy projects for Frip, Nota AI, and Coupang Play, turning market research into concrete service and go-to-market proposals.</p>
+              </div>
+              <div className="activity-gallery activity-gallery-three">
+                <a href="/activity/msk-frip.jpg" target="_blank"><img src="/activity/msk-frip.jpg" alt="Frip MateTrip service strategy presentation slide" /></a>
+                <a href="/activity/msk-nota.jpg" target="_blank"><img src="/activity/msk-nota.jpg" alt="Nota AI industrial safety market analysis presentation slide" /></a>
+                <a href="/activity/msk-coupang-play.jpg" target="_blank"><img src="/activity/msk-coupang-play.jpg" alt="Coupang Play content acquisition strategy presentation slide" /></a>
+              </div>
+            </article>
+
+            <article className="activity-card activity-card-featured">
+              <div className="activity-copy">
+                <span>Global Volunteering · 2025</span>
+                <h3>AI Education in Timor-Leste</h3>
+                <p>Designed and delivered an English-language AI development curriculum with KAIST volunteers and students at the National University of Timor-Leste.</p>
+              </div>
+              <div className="activity-gallery">
+                <a href="/activity/timor-leste-volunteering.jpg" target="_blank"><img src="/activity/timor-leste-volunteering.jpg" alt="KAIST volunteers and students during the AI education program in Timor-Leste" /></a>
+              </div>
+            </article>
+
+            <article className="activity-card">
+              <div className="activity-copy">
+                <span>AI Competition · 2026</span>
+                <h3>Hanwha Life Future Talent Contest</h3>
+                <p>Won 3rd Prize in the AI sector by proposing a structured data pipeline and model-selection framework for an insurance AI solution, then presented the work at the final stage.</p>
+              </div>
+              <div className="activity-gallery activity-gallery-two">
+                <a href="/activity/hanwha-solution.jpg" target="_blank"><img src="/activity/hanwha-solution.jpg" alt="Hanwha Life AI solution data pipeline proposal slide" /></a>
+                <a href="/activity/hanwha-presentation.jpg" target="_blank"><img src="/activity/hanwha-presentation.jpg" alt="Jooho Son presenting at the Hanwha Finance Future Talent Contest" /></a>
+              </div>
+            </article>
           </div>
         </section>
 
