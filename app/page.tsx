@@ -155,11 +155,12 @@ export default function Home() {
             <a className="resume-download" href="/jooho-son-resume.pdf" target="_blank"><Download /> Download Resume</a>
           </div>
           <div className="timeline">
-            <article className="current-role"><time>Current</time><div><span className="timeline-label">Current research lab</span><h3>KAIST Computer Vision Lab (CVLab)</h3><p>Undergraduate Researcher · Joined CVLab after DSAIL and currently conduct research on 4D novel-view synthesis, city-scale mesh reconstruction, action latent representations, and vision-language-action models.</p></div></article>
-            <article><time>2026</time><div><h3>Hanwha Life Future Talent Contest</h3><p>3rd Prize, AI Sector · Recognized for an AI project in Hanwha Life&apos;s future-talent competition.</p></div></article>
+            <article><time>2022 — 2024</time><div><h3>Chungnam Science High School</h3><p>29th Cohort · Graduated early before entering KAIST.</p></div></article>
+            <article><time>Previous</time><div><span className="timeline-label muted-label">Previous research lab</span><h3>KAIST DSAIL</h3><p>Undergraduate Researcher · Reviewed AI for Science research and studied graph learning and scientific reasoning pipelines.</p></div></article>
             <article><time>2024 — 2025</time><div><h3>KAIST Management Study Group</h3><p>Vice President · Led consulting projects for Nota AI and Frip, translating market questions into executable strategies.</p></div></article>
             <article><time>2025</time><div><h3>Timor-Leste Global Volunteering Group</h3><p>AI Education Lead · Designed and delivered an English-language AI development curriculum.</p></div></article>
-            <article><time>Previous</time><div><span className="timeline-label muted-label">Previous research lab</span><h3>KAIST DSAIL</h3><p>Undergraduate Researcher · Reviewed AI for Science research and studied graph learning and scientific reasoning pipelines before moving to CVLab.</p></div></article>
+            <article><time>2026</time><div><h3>Hanwha Life Future Talent Contest</h3><p>3rd Prize, AI Sector · Recognized for an AI project in Hanwha Life&apos;s future-talent competition before joining CVLab.</p></div></article>
+            <article className="current-role"><time>After Hanwha — Present</time><div><span className="timeline-label">Current research lab</span><h3>KAIST Computer Vision Lab (CVLab)</h3><p>Undergraduate Researcher · Joined CVLab after the Hanwha Life contest, following the earlier research experience at DSAIL. Currently conducting research on 4D novel-view synthesis, city-scale mesh reconstruction, action latent representations, and vision-language-action models.</p></div></article>
           </div>
         </section>
 
